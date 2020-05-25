@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
   body h1 {
-    text-align: "center";
+    text-align: center;
     padding-bottom: 25px;
     border-radius: 78px;
     background: linear-gradient(225deg, #2e6888, #275772);
@@ -33,7 +33,7 @@ body {
     grid-row-start: auto; }
   body .nom {
     border-radius: 78px;
-    background-linear-gradient: 225deg, #8489ff, #6f73e6;
+    background:linear-gradient: 225deg, #8489ff, #6f73e6;
     background-color: #7B80FF;
     grid-row-start: 2;
     grid-column-start: 1;
@@ -73,9 +73,70 @@ body {
     grid-row-start: 4;
     grid-column-start: 2;
     text-align: center; }
+
+ 
+  }
   body .row32 {
     grid-row-start: 1;
     grid-column-start: 2; }
   body .row3 {
     grid-row-start: 1;
     grid-column-start: 1; }
+
+@media screen and (max-width: 768px) { 
+
+									.mycv { 
+											padding: 10px;
+    										border-radius: 50px;
+    										background: blue;
+    										box-shadow: inset 19px 19px 37px #74848c,  inset -19px -19px 37px #9eb2be;
+   											display: grid;
+										    grid-template-columns: auto;
+										    grid-template-rows: auto;
+										    grid-gap: 5px;
+										    grid-row-gap: 5em;
+										    grid-row-start: auto; }
+   											
+
+   									.nom { 
+   											 grid-row-start: 2;
+   											 grid-column-start: 1;}
+
+   									.adresse{ 
+   												grid-row-start: 3;
+   												grid-column-start: 1; }
+
+   									.formation{ 
+   												grid-row-start: 4;
+   												grid-column-start: 1; }	
+
+   									.experiences { 
+   													border-radius: 78px;
+												    background: linear-gradient(225deg, #fff5c7, #dbcea7);
+												    box-shadow: -41px 41px 82px #77705b,  41px -41px 82px #ffffff;
+   													grid-row-start: 5;
+   													grid-column-start :1; }
+
+   									.langues { 
+   												border-radius: 78px;
+											    background: linear-gradient(225deg, #b3b5e5, #9698c1);
+											    box-shadow: -41px 41px 50px #434456,  41px -41px 50px #ffffff;
+											    grid-row-start: 6;
+											    grid-column-start: 1;
+											    text-align: center; }
+
+									.loisir { 
+												border-radius: 78px;
+											    background: linear-gradient(225deg, #ff9685, #e37e70);
+											    box-shadow: -41px 41px 50px #653832,  41px -41px 50px #ffe0c6;
+											    grid-row-start: 7;
+											    grid-column-start: 1;
+											    text-align: center; }
+
+
+   												 
+
+
+
+
+   								}
