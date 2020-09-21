@@ -3,10 +3,12 @@ body {
 	font-family: Georgia, sans-serif;
 	margin:auto;
 	padding:150px;
-	background-image: url(http://www.fondsecran.eu/a/get_photo/68893/1920/1080);
+	/* background-image: url(http://www.fondsecran.eu/a/get_photo/68893/1920/1080); */
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-color:whitesmoke;
 
+	
 	}
 
 h1 {
@@ -14,12 +16,9 @@ h1 {
 	padding-top : 20px;
 	padding-bottom: 20px;
 	border-radius: 78px;
-	background: linear-gradient(225deg, #2e6888, #275772);
-	box-shadow:  -22px 22px 43px #15303e, 
-             22px -22px 43px #4192c0;
-
-}
-
+	background: linear-gradient(225deg, #e6ecf0, #ecedee);
+	box-shadow:  -41px 41px 82px #070707, 
+             41px -41px 82px #bac1ff;
 
 }
 
@@ -37,10 +36,6 @@ div {
   	
   	}
 
-
-		 }	
-
-
 .adresse li {
 	padding-bottom:20px;
 	padding-top:10px;
@@ -50,25 +45,24 @@ div {
 .cv {
 	padding:10px;
 	border-radius: 50px;
-	background: #23688F;
-	box-shadow: inset 19px 19px 37px #74848c, 
-            inset -19px -19px 37px #9eb2be;
-	
+	/* background: linear-gradient(225deg, #f3f3f5, #e9e9ec); */
+	box-shadow:  -41px 41px 82px #070707, 
+             41px -41px 82px #bac1ff;
 	display:grid;
 	grid-template-columns:auto;
 	grid-template-rows:auto;
-	grid-gap: 5px;
-	grid-row-gap: 5em;
+	grid-gap: 25px;
+	grid-row-gap: 2em;
 	grid-row-start:auto;
 
 	}
 
 .nom {
 	border-radius: 78px;
-	background: linear-gradient(225deg, #8489ff, #6f73e6);
-	box-shadow:  -41px 41px 82px #3c3f7d, 
+	/* background: linear-gradient(225deg, #f3f3f5, #e9e9ec); */
+	box-shadow:  -41px 41px 82px #070707, 
              41px -41px 82px #bac1ff;
-	background-color:#7B80FF;
+	
 	/*grid-column: 1/2;
 	grid-row: 1;*/
 	grid-row-start: 2;
@@ -79,9 +73,10 @@ div {
 
 .formation {
 	border-radius: 78px;
-	background: linear-gradient(225deg, #84d0ff, #6fafe6);
-	box-shadow:  -41px 41px 82px #3c5f7d, 
-             41px -41px 82px #baffff;
+	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	box-shadow:  -41px 41px 82px #070707, 
+             41px -41px 82px #bac1ff;
+	background-color:#f2f2fa;
 	
 	/*grid-column: 2/2;
 	grid-row: 1/2;*/
@@ -94,9 +89,10 @@ div {
 .adresse {
 	
 	border-radius: 78px;
-	background: linear-gradient(225deg, #aafaff, #8fd3e4);
-	box-shadow:  -41px 41px 82px #4e737c, 
-             41px -41px 82px #f0ffff;
+	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	box-shadow:  -41px 41px 82px #070707, 
+             41px -41px 82px #bac1ff;
+	background-color:#f2f2fa;
 	/*grid-column: 1;
 	grid-row: :2/2;*/
 	grid-row-start: 3;
@@ -107,9 +103,10 @@ div {
 
 .experiences {
 	border-radius: 78px;
-	background: linear-gradient(225deg, #fff5c7, #dbcea7);
-	box-shadow:  -41px 41px 82px #77705b, 
-             41px -41px 82px #ffffff;
+	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	box-shadow:  -41px 41px 82px #070707, 
+             41px -41px 82px #bac1ff;
+	background-color:#f2f2fa;
 	
 	grid-row-start: 3;
 	grid-column-start: 2;
@@ -118,20 +115,22 @@ div {
 
 .loisir {
 	border-radius: 78px;
-	background: linear-gradient(225deg, #ff9685, #e37e70);
-	box-shadow:  -41px 41px 50px #653832, 
-             41px -41px 50px #ffe0c6;
+	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	box-shadow:  -41px 41px 82px #070707, 
+             41px -41px 82px #bac1ff;
+	background-color:#f2f2fa;
 	grid-row-start: 4;
 	grid-column-start: 1;
 	text-align: center;
 
 		}
 
-.langues {
+.connaissances {
 	border-radius: 78px;
-	background: linear-gradient(225deg, #b3b5e5, #9698c1);
-	box-shadow:  -41px 41px 50px #434456, 
-             41px -41px 50px #ffffff;
+	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	box-shadow:  -41px 41px 82px #070707, 
+             41px -41px 82px #bac1ff;
+	background-color:#f2f2fa;
 	grid-row-start: 4;
 	grid-column-start: 2;
 	text-align: center;
@@ -177,23 +176,29 @@ div {
 
    									.experiences { 
    													border-radius: 78px;
-												    background: linear-gradient(225deg, #fff5c7, #dbcea7);
-												    box-shadow: -41px 41px 82px #77705b,  41px -41px 82px #ffffff;
+													   background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+													   box-shadow:  -41px 41px 82px #070707, 
+																41px -41px 82px #bac1ff;
+													   background-color:#f2f2fa;
    													grid-row-start: 5;
    													grid-column-start :1; }
 
-   									.langues { 
+   									.connaissances { 
    												border-radius: 78px;
-											    background: linear-gradient(225deg, #b3b5e5, #9698c1);
-											    box-shadow: -41px 41px 50px #434456,  41px -41px 50px #ffffff;
+												   background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+												   box-shadow:  -41px 41px 82px #070707, 
+															41px -41px 82px #bac1ff;
+												   background-color:#f2f2fa;
 											    grid-row-start: 6;
 											    grid-column-start: 1;
 											    text-align: center; }
 
 									.loisir { 
 												border-radius: 78px;
-											    background: linear-gradient(225deg, #ff9685, #e37e70);
-											    box-shadow: -41px 41px 50px #653832,  41px -41px 50px #ffe0c6;
+											    background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+												box-shadow:  -41px 41px 82px #070707, 
+            												41px -41px 82px #bac1ff;
+												background-color:#f2f2fa;
 											    grid-row-start: 7;
 											    grid-column-start: 1;
 											    text-align: center; }
