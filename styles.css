@@ -46,6 +46,8 @@ div {
 
 img { 
 	padding-left : 25px;
+	float : right ;
+	clear : both ;
 }
 
 
