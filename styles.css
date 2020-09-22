@@ -95,7 +95,7 @@ img {
 	}
 
 .adresse {
-	
+	text-align :center ;
 	border-radius: 78px;
 	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
 	box-shadow:  -41px 41px 82px #070707, 
