@@ -1,12 +1,11 @@
 
 body {
 	font-family: roboto, sans-serif;
-	margin:auto;
+	/* margin:auto; */
 	padding:150px;
-	/* background-image: url(http://www.fondsecran.eu/a/get_photo/68893/1920/1080); */
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-color:whitesmoke;
+	margin-left:300px;
+	margin-right: 300px;
+	background-color:rgb(160, 244, 255);
 
 	
 	}
@@ -16,9 +15,9 @@ body {
 	padding-top : 20px;
 	padding-bottom: 20px;
 	border-radius: 78px;
-	background: linear-gradient(225deg, #e6ecf0, #ecedee);
+	background: linear-gradient(225deg, #a8d0eb, #61a4e7);
 	box-shadow:  -41px 41px 82px #070707, 
-             41px -41px 82px #e7e7e7;
+             41px -41px 82px 
 
 }
 
@@ -67,9 +66,9 @@ img {
 
 .langues {
 	border-radius: 78px;
-	/* background: linear-gradient(225deg, #f3f3f5, #e9e9ec); */
+	background: linear-gradient(225deg, #a8d0eb, #61a4e7);
 	box-shadow:  -41px 41px 82px #070707, 
-             41px -41px 82px #e7e7e7;
+             41px -41px 82px ;
 	
 	/*grid-column: 1/2;
 	grid-row: 1;*/
@@ -81,11 +80,9 @@ img {
 
 .formation {
 	border-radius: 78px;
-	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	background: linear-gradient(225deg, #a8d0eb, #61a4e7);
 	box-shadow:  -41px 41px 82px #070707, 
-             41px -41px 82px #e7e7e7;
-	background-color:#f2f2fa;
-	
+             41px -41px 82px ;
 	/*grid-column: 2/2;
 	grid-row: 1/2;*/
 	grid-row-start: 3;
@@ -97,10 +94,10 @@ img {
 .adresse {
 	text-align :center ;
 	border-radius: 78px;
-	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	background: linear-gradient(225deg, #a8d0eb, #61a4e7);
 	box-shadow:  -41px 41px 82px #070707, 
-             41px -41px 82px #e7e7e7;
-	background-color:#f2f2fa;
+             41px -41px 82px ;
+	/* background-color:#f2f2fa; */
 	/*grid-column: 1;
 	grid-row: :2/2;*/
 	grid-row-start: 2;
@@ -110,10 +107,10 @@ img {
 
 .experiences {
 	border-radius: 78px;
-	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	background: linear-gradient(225deg, #a8d0eb, #61a4e7);
 	box-shadow:  -41px 41px 82px #070707, 
-             41px -41px 82px  #e7e7e7;
-	background-color:#f2f2fa;
+             41px -41px 82px ;
+	/* background-color:#f2f2fa; */
 	grid-column-start: 2;
 	grid-row-start: 2;
 	
@@ -122,10 +119,10 @@ img {
 
 .loisir {
 	border-radius: 78px;
-	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	background: linear-gradient(225deg, #a8d0eb, #61a4e7);
 	box-shadow:  -41px 41px 82px #070707, 
-             41px -41px 82px  #e7e7e7;
-	background-color:#f2f2fa;
+             41px -41px 82px ;
+	/* background-color:#f2f2fa; */
 	grid-row-start: 4;
 	grid-column-start: 1;
 	text-align: center;
@@ -134,10 +131,10 @@ img {
 
 .connaissances {
 	border-radius: 78px;
-	background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
+	background: linear-gradient(225deg, #a8d0eb, #61a4e7);
 	box-shadow:  -41px 41px 82px #070707, 
-             41px -41px 82px #e7e7e7;
-	background-color:#f2f2fa;
+             41px -41px 82px ;
+	/* background-color:#f2f2fa; */
 	grid-row-start: 4;
 	grid-column-start: 2;
 	text-align: center;
@@ -156,63 +153,72 @@ img {
 
  @media screen and (max-width: 1024px) { 
 
-									.mycv { 
-											padding: 10px;
-    										border-radius: 50px;
-    										background: blue;
-    										box-shadow: inset 19px 19px 37px #74848c,  inset -19px -19px 37px #9eb2be;
-   											display: grid;
-										    grid-template-columns: auto;
-										    grid-template-rows: auto;
-										    grid-gap: 5px;
-										    grid-row-gap: 5em;
-										    grid-row-start: auto; }
-   											
+	body {
+		font-family: roboto, sans-serif;
+		/* margin:auto; */
+		padding:150px;
+		margin: auto;
+		background-color:rgb(160, 244, 255);
+	
+		
+		}
+	.mycv { 
+			padding: 10px;
+			border-radius: 50px;
+			/* background: blue;
+			box-shadow: inset 19px 19px 37px #74848c,  inset -19px -19px 37px #9eb2be; */
+			display: grid;
+			grid-template-columns: auto;
+			grid-template-rows: auto;
+			grid-gap: 5px;
+			grid-row-gap: 5em;
+			grid-row-start: auto; }
+			
 
-   									.nom { 
-   											 grid-row-start: 2;
-   											 grid-column-start: 1;}
+	.langues { 
+				grid-row-start: 2;
+				grid-column-start: 1;}
 
-   									.adresse{ 
-   												grid-row-start: 3;
-   												grid-column-start: 1; }
+	.adresse{ 
+				grid-row-start: 3;
+				grid-column-start: 1; }
 
-   									.formation{ 
-   												grid-row-start: 4;
-   												grid-column-start: 1; }	
+	.formation{ 
+				grid-row-start: 4;
+				grid-column-start: 1; }	
 
-   									.experiences { 
-   													border-radius: 78px;
-													   background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
-													   box-shadow:  -41px 41px 82px #070707, 
-																41px -41px 82px #e7e7e7;
-													   background-color:#f2f2fa;
-   													grid-row-start: 5;
-   													grid-column-start :1; }
+	.experiences { 
+					border-radius: 78px;
+						background: linear-gradient(225deg, #a8d0eb, #61a4e7);
+					box-shadow:  -41px 41px 82px #070707, 
+							41px -41px 82px ;
+						/* background-color:#f2f2fa; */
+					grid-row-start: 5;
+					grid-column-start :1; }
 
-   									.connaissances { 
-   												border-radius: 78px;
-												   background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
-												   box-shadow:  -41px 41px 82px #070707, 
-															41px -41px 82px #e7e7e7;
-												   background-color:#f2f2fa;
-											    grid-row-start: 6;
-											    grid-column-start: 1;
-											    text-align: center; }
+	.connaissances { 
+				border-radius: 78px;
+					background: linear-gradient(225deg, #a8d0eb, #61a4e7);
+				box-shadow:  -41px 41px 82px #070707, 
+						41px -41px 82px ;
+					/* background-color:#f2f2fa; */
+				grid-row-start: 6;
+				grid-column-start: 1;
+				text-align: center; }
 
-									.loisir { 
-												border-radius: 78px;
-											    background: linear-gradient(225deg, #f3f3f5, #e9e9ec);
-												box-shadow:  -41px 41px 82px #070707, 
-            												41px -41px 82px #e7e7e7;
-												background-color:#f2f2fa;
-											    grid-row-start: 7;
-											    grid-column-start: 1;
-											    text-align: center; }
+	.loisir { 
+				border-radius: 78px;
+				background: linear-gradient(225deg, #a8d0eb, #61a4e7);
+				box-shadow:  -41px 41px 82px #070707, 
+						41px -41px 82px ;
+				/* background-color:#f2f2fa; */
+				grid-row-start: 7;
+				grid-column-start: 1;
+				text-align: center; }
 
-											   
-									.row3 {
-										 	grid-row-start: 8;
-										 	grid-column-start: 1;
-										 }
- 		}		   
+				
+	.row3 {
+			grid-row-start: 8;
+			grid-column-start: 1;
+			}
+}		   
