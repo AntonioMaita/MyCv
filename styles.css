@@ -106,7 +106,8 @@ img {
 	}
 
 .experiences {
-	margin-left: 20px;
+	padding-left: 60px;
+	padding-bottom: 10px ;
 	border-radius: 78px;
 	background: linear-gradient(225deg, #a8d0eb, #61a4e7);
 	box-shadow:  -41px 41px 82px #070707, 
