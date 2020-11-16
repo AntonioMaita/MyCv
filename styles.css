@@ -116,8 +116,10 @@ img {
 	
 	text-align:left;
 			}
-.experiences h1 h2 {
+.experiences h2 {
 	tex-align: center; }
+.experience h3 {
+	tex-aling: center; }
 
 .loisir {
 	border-radius: 78px;
